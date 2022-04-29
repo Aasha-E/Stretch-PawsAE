@@ -17,13 +17,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List (poses.poseData) { pose in
-                NavigationLink(destination: DetailView()) {
+                NavigationLink(destination: DetailView(pose: pose)) {
                     Image(pose.icon)
                         .resizable()
                         .frame(width: 60, height: 60)
                     Text(pose.name)
                         .fontWeight(.medium)
                         .font(.title3)
+                        .foregroundColor(Color("Highlight"))
                         .padding(.leading, 20)
                 }
                 .padding(5)
