@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		40D4A256281B8A3800D1949C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4A255281B8A3800D1949C /* DetailView.swift */; };
 		40D4A258281B8CE600D1949C /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D4A257281B8CE600D1949C /* Pose.swift */; };
+		40DC2337281CBAB400E2FFBD /* Yoga Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DC2336281CBAB400E2FFBD /* Yoga Timer.swift */; };
 		40E0B319281A456A007E2282 /* Stretch_PawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0B318281A456A007E2282 /* Stretch_PawsApp.swift */; };
 		40E0B31B281A456A007E2282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0B31A281A456A007E2282 /* ContentView.swift */; };
 		40E0B31D281A456E007E2282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E0B31C281A456E007E2282 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		40D4A255281B8A3800D1949C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		40D4A257281B8CE600D1949C /* Pose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		40DC2336281CBAB400E2FFBD /* Yoga Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Yoga Timer.swift"; sourceTree = "<group>"; };
 		40E0B315281A456A007E2282 /* Stretch+Paws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stretch+Paws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E0B318281A456A007E2282 /* Stretch_PawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stretch_PawsApp.swift; sourceTree = "<group>"; };
 		40E0B31A281A456A007E2282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				40E0B31A281A456A007E2282 /* ContentView.swift */,
 				40D4A255281B8A3800D1949C /* DetailView.swift */,
 				40D4A257281B8CE600D1949C /* Pose.swift */,
+				40DC2336281CBAB400E2FFBD /* Yoga Timer.swift */,
 				40E0B31C281A456E007E2282 /* Assets.xcassets */,
 				40E0B31E281A456E007E2282 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40DC2337281CBAB400E2FFBD /* Yoga Timer.swift in Sources */,
 				40D4A258281B8CE600D1949C /* Pose.swift in Sources */,
 				40E0B31B281A456A007E2282 /* ContentView.swift in Sources */,
 				40D4A256281B8A3800D1949C /* DetailView.swift in Sources */,
